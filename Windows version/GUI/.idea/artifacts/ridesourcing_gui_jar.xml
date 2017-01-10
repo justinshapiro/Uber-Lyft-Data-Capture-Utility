@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ridesourcing_gui:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ridesourcing_gui_jar</output-path>
+    <root id="archive" name="ridesourcing_gui.jar">
+      <element id="module-output" name="ridesourcing_gui" />
+    </root>
+  </artifact>
+</component>

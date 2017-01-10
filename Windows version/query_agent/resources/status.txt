@@ -1,0 +1,1 @@
+Elapsed Time: 33.51524758338928 s | Querying: Lakewood (W Mississippi Ave & S Wadsworth Blvd.) | Total locations queried: 7 | Uber requests made: 14

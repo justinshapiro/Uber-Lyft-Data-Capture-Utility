@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="dist.jnlp">
+  <information>
+    <title>BrickBreaker</title>
+    <vendor>Application vendor</vendor>
+    <description>Application description</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="dist.jar" size="9500" download="null" />
+  </resources>
+  <jfx:javafx-desc  width="0" height="0" main-class="brickbreaker.Main"  name="BrickBreaker" />
+  <update check="background"/>
+</jnlp>

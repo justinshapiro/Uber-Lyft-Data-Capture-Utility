@@ -1,0 +1,1 @@
+Elapsed Time: 10.511172771453857 s | Querying: Denver Eliria-Swansea (Valdez-Perry Library) | Total locations queried: 2 | Uber requests made: 4

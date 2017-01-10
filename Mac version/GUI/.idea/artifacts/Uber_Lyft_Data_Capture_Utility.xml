@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Uber-Lyft_Data_Capture_Utility">
+    <output-path>$PROJECT_DIR$/out/artifacts/Uber_Lyft_Data_Capture_Utility</output-path>
+    <root id="archive" name="Uber-Lyft_Data_Capture_Utility.jar">
+      <element id="archive" name="Uber/Lyft Data Capture Utility.jar">
+        <element id="module-output" name="Uber-Lyft Data Capture Utility" />
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$PROJECT_DIR$/src/META-INF/MANIFEST.MF" />
+        </element>
+      </element>
+      <element id="module-output" name="Uber-Lyft_Data_Capture_Utility" />
+    </root>
+  </artifact>
+</component>

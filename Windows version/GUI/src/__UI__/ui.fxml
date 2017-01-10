@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="449.9998779296875" prefWidth="600.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="__UI__.Controller">
+  <Label layoutX="62.0" layoutY="205.0" prefWidth="104.0" text="Selected Locations:" />
+  <ImageView fx:id="logo" fitHeight="47.69148900220591" fitWidth="344.8461608886719" layoutX="15.0" pickOnBounds="true" preserveRatio="true">
+  </ImageView>
+  <Label layoutX="373.0" prefHeight="48.0" prefWidth="227.0" text="Uber/Lyft Data Capture Utility" textFill="BLACK" textOverrun="CLIP">
+    <font>
+      <Font name="System Bold" size="15.0" />
+    </font>
+  </Label>
+  <Label layoutX="14.0" layoutY="72.0" text="Data File Name" />
+  <TextField fx:id="d_name" layoutX="100.0" layoutY="69.0" prefWidth="137.0" />
+  <Label layoutX="253.0" layoutY="72.0" text="Data File Folder" />
+  <TextField fx:id="d_location" layoutX="360.0" layoutY="69.0" prefWidth="147.0" />
+  <Button fx:id="browse_button" layoutX="507.0" layoutY="69.0" mnemonicParsing="false" text="Browse..." />
+  <Separator layoutY="48.0" prefWidth="600.0" />
+  <Separator layoutY="143.0" prefWidth="600.0" />
+  <Separator layoutX="237.0" layoutY="145.0" orientation="VERTICAL" prefHeight="288.0" />
+  <Hyperlink fx:id="locations_edit" layoutX="34.0" layoutY="158.0" textFill="#0029ff" underline="true">
+    <font>
+      <Font size="20.0" fx:id="x1" />
+    </font>
+  </Hyperlink>
+  <Label id="run_status_txt" font="$x1" layoutX="284.0" layoutY="152.0" text="Run Status:" />
+  <Label fx:id="run_status" font="$x1" layoutX="399.0" layoutY="152.0" prefWidth="118.0" />
+  <Button fx:id="start_button" layoutX="306.0" layoutY="195.0" mnemonicParsing="false" text="START" />
+  <Button fx:id="stop_button" layoutX="451.0" layoutY="195.0" mnemonicParsing="false" text="STOP" />
+  <ListView fx:id="selected_locations" focusTraversable="false" layoutX="15.0" layoutY="221.0" prefHeight="200.0" prefWidth="200.0" />
+  <TextArea fx:id="status_area" editable="false" layoutX="251.0" layoutY="236.0" prefWidth="335.0" />
+  <Label layoutX="256.0" layoutY="217.0" prefWidth="66.0" text="Progress:" />
+  <Label layoutX="15.0" layoutY="97.0" prefHeight="35.0" prefWidth="66.0" text="Location File Name" wrapText="true" />
+  <TextField fx:id="l_name" layoutX="100.0" layoutY="101.0" prefWidth="137.0" />
+  <Label layoutX="253.0" layoutY="104.0" text="Location File Folder" />
+  <TextField fx:id="l_location" layoutX="360.0" layoutY="101.0" prefWidth="147.0" />
+  <Button fx:id="browse_button2" layoutX="507.0" layoutY="101.0" mnemonicParsing="false" text="Browse..." />
+  <Label fx:id="path_notify" layoutX="252.0" layoutY="414.0" prefHeight="35.0" prefWidth="335.0001220703125" visible="false" wrapText="true">
+    <font>
+      <Font size="12.0" />
+    </font>
+  </Label>
+</AnchorPane>
