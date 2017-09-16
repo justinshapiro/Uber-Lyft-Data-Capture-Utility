@@ -19,8 +19,9 @@ import java.util.Optional;
 public class UI extends Application {
 
     public static void main(String[] args) {
-        String s = "file:/" + System.getProperty("user.dir") + "/";
+        String s = "file:///" + System.getProperty("user.dir") + "/";
         s = s.replaceAll("\\\\", "/");
+        s = s.replaceAll(" ", "%20");
         try {
             try {
                 URI prefs_file_location = new URI(s + "resources/preferences.txt");

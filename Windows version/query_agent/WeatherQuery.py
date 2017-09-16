@@ -34,4 +34,3 @@ def weather_query(location):
         snow = ""
 
     return [temp, rain, snow]
-

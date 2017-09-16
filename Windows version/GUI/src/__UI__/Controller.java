@@ -52,8 +52,9 @@ public class Controller implements Initializable {
     @Override
     public void initialize(URL url, ResourceBundle rb) {
         // set resources directory path
-        String s = "file:/" + System.getProperty("user.dir") + "/";
+        String s = "file:///" + System.getProperty("user.dir") + "/";
         s = s.replaceAll("\\\\", "/");
+        s = s.replaceAll(" ", "%20");
         final String main_folder_path = s;
 
         // initialize screen logo
@@ -210,7 +211,10 @@ public class Controller implements Initializable {
     private void hyperlink_update() {
         // initialize the hyperlink to view/edit the locations.csv in the environment's default viewer
         try {
-            URL locations_file = new URL("file:/" + l_location.getText() + "/" + l_name.getText());
+            String locations_file_path = "file:///" + l_location.getText() + "/" + l_name.getText();
+            locations_file_path = locations_file_path.replaceAll("\\\\", "/");
+            locations_file_path = locations_file_path.replaceAll(" ", "%20");
+            URL locations_file = new URL(locations_file_path);
             locations_edit.setText("Edit \"" + l_name.getText() + "\"");
             locations_edit.setOnAction(event -> {
                 try {

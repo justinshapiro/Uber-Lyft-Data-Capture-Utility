@@ -1,1 +1,1 @@
-Elapsed Time: 33.51524758338928 s | Querying: Lakewood (W Mississippi Ave & S Wadsworth Blvd.) | Total locations queried: 7 | Uber requests made: 14
+Elapsed Time: 21.52089548110962 s | Querying: Denver (Sunny Side) | Total locations queried: 4 | Uber requests made: 8
